@@ -3,7 +3,7 @@ from PIL import Image
 
 streamlit.set_page_config(page_title="paragraph", page_icon=" :tada:", layout="wide" )
 
-pic1 = Image.open("webpage/lab.png")
+pic1 = Image.open("/lab.png")
 
 with streamlit.container():
   streamlit.subheader("hi , i am aubaida :wave:")
